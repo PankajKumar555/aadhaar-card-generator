@@ -33,7 +33,7 @@ const AadharCard = (formData) => {
                 <b>DOB</b> : {data.dob}{" "}
               </p>
               <p>
-                <b>Gender</b> : {data.contact}
+                <b>Contact</b> : {data.contact}
               </p>
             </div>
           </div>
