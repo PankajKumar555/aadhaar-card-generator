@@ -1,0 +1,113 @@
+.front-container{
+    width: 30rem;
+    height: 17rem;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 0.5rem;
+}
+.front-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.front-nav img{
+    height: 3rem;
+    padding: 0px 16px; 
+}
+.front-nav-txt p:nth-child(1){
+    background: linear-gradient(119.54deg, #d4851c 0%, #e47654 100%);
+    padding: 0px 1rem;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+.front-nav-txt p:nth-child(2){
+    background: linear-gradient(119.54deg, #27440b 0%, #7bcc30 100%);
+    padding: 0px 1rem;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+.front-details-container{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.back-details-container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 152px;
+    margin-top: 10px;
+}
+.front-details{
+    margin-top: 10px;
+    display: flex;
+}
+.back-details{
+    padding-left: 1rem;
+    width: 18rem;
+}
+.front-details img{
+    width: 130px;
+    height: 150px;
+}
+.front-details p{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.front-details div{
+    padding-top: 1rem;
+}
+.front-footer{
+    text-align: center;
+    margin-top: 10px;
+}
+.front-footer hr{
+    background: red;
+    height: 2px;
+    border: none;
+}
+.front-details hr, span{
+    color: red;
+}
+.front-qrcode{
+    height: 100px;
+    width: 100px;
+}
+.back-qrcode{
+    height: 150px;
+    width: 150px;
+}
+@media (max-width: 600px){
+    .front-container{
+        width: 350px;
+        height: 12rem;
+    }
+    .front-nav img{
+        height: 2rem;
+        padding: 0px 8px; 
+    }
+    .front-nav-txt p{
+        font-size: 12px;
+    }
+    .front-details img{
+        width: 80px;
+        height: 100px;
+    }
+    .front-details p{
+        font-size: 14px;
+        padding: 0px;
+    }
+    .front-qrcode{
+        height: 70px;
+        width: 70px;
+    }
+    .front-footer h2{
+        font-size: 18px;
+    }.back-qrcode{
+        height: 100px;
+        width: 100px;
+    }
+    .back-details-container{
+        height: 100px;
+    }
+}
